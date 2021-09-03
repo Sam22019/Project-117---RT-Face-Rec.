@@ -1,0 +1,48 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.heading_div {
+    float: none;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.heading_div2 {
+    font-size: 18px;
+}
+
+canvas {
+    margin-top: 220px;
+    margin-bottom: 500px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {box-shadow: 1px 1px 38px #eff777}
+    50% {box-shadow: 1px 1px 38px #65f0d6}
+    100% {box-shadow: 1px 1px 38px #eff777}
+}
+
+.result_para_tag {
+    box-shadow: 5px 5px 5px gray; 
+    font-size: 20px;
+}
+
+.copy_right_footer {
+    margin-top: 100px;
+    position: fixed; 
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 2;
+    text-align: center;
+}
